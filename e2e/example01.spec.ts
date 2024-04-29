@@ -2,7 +2,7 @@
  * @Author: gene.jiang
  * @Date: 2024-04-29 19:08:40
  * @LastEditors: gene.jiang
- * @LastEditTime: 2024-04-29 19:19:52
+ * @LastEditTime: 2024-04-29 19:34:24
  * @Description: file content
  * @FilePath: \learning_typescript\e2e\example01.spec.ts
  */
@@ -11,5 +11,5 @@
 import {test, expect} from '@playwright/test';
 
 test('open the product-qa', async ({page}) => {
-    await page.goto('https://product-qa.chiefclouds.com/');    
+    await page.goto('https://product-.xxx.com/');    
 });
